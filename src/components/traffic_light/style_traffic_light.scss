@@ -1,0 +1,41 @@
+@import '../../style.scss';
+
+
+
+@media screen and (min-width: 1025px) {
+
+    .traffic-light {
+        width: 300px;
+        height: 300px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 1024px) {
+   
+    .traffic-light {
+        width: 300px;
+        height: 300px;
+    }
+      
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+   
+    .traffic-light {
+        width: 300px;
+        height: 300px;
+    }
+      
+  
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    .traffic-light {
+        width: 200px;
+        height: 200px;
+    }
+      
+  }

@@ -1,0 +1,62 @@
+@import '../../style.scss';
+
+
+.score{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: $background-color;
+}
+
+
+.pc-vs-hu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 1025px) {
+
+    .vs {
+        font-size: 100px;
+        color: white;
+    }
+  
+  }
+  
+  @media screen and (max-width: 1024px) {
+   
+    .vs {
+        font-size: 70px;
+        color: white;
+    }
+      
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+   
+    .vs {
+        font-size: 50px;
+        color: white;
+    }
+      
+  
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    .vs {
+        font-size: 30px;
+        color: white;
+    }
+      
+  }

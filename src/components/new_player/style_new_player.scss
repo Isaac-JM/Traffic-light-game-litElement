@@ -1,0 +1,74 @@
+@import'../../style.scss';
+
+
+.text-new-player{
+  text-shadow: 10px black;
+  font-size:30px;
+  font-weight: bold;
+
+}
+
+.text-input-new-player{
+ width: 270px;
+ background-color: rgb(255, 255, 255);
+ height: 50px;
+ border-radius: 10px;
+ font-size: 30px;
+ margin-top: 10px;
+}
+
+.button-new-player{
+  width: 200px;
+  background-color: rgb(84, 178, 233);
+  height: 50px;
+  border-radius: 10px;
+  font-size: 35px;
+  margin-top: 10px;
+  cursor: pointer;
+ }
+ 
+
+@mixin style-container{
+    background: $primary-color;
+    border: solid 2px white;
+    border-radius: 5px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (min-width: 1025px) {
+
+  .container {
+    width: 30vw;
+    @include style_container;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+ 
+  .container {
+    width: 40vw;
+    @include style_container;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .container {
+    width: 50vw;
+    @include style_container;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .container {
+    width: 95vw;
+    @include style_container;
+  }
+}

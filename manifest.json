@@ -1,0 +1,30 @@
+{
+    "name": "Red_Light_Green_Light",
+    "short_name": "RLGL",
+    "theme_color": "#ffe08a",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "screenshots": [
+        {
+            "src": "/src/assets/semaforos",
+            "type": "image/png",
+            "sizes": "512x512",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/src/assets/semaforos",
+            "type": "image/png",
+            "sizes": "512x512",
+            "form_factor": "narrow"
+        }
+    ],
+    "icons": [
+        {
+           "src": "/src/assets/semaforos",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+@import '../../style.scss';
+
+.score{
+    width: 180px;
+    height: 25px;
+    background-color: rgb(226, 226, 226);
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: black 5px 5px 5px;
+}
+
+.score-fail{
+    width: 180px;
+    height: 25px;
+    background-color: rgb(226, 226, 226);
+    border: 2px solid rgb(255, 76, 76);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: black 5px 5px 5px;
+}
+
+.user{
+    font-size: 25px;
+    padding: 5px;
+}
